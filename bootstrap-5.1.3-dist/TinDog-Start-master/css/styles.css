@@ -1,0 +1,144 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Ubuntu', sans-serif;
+      line-height: 1.5;
+        size: 3rem;
+}
+
+
+.sammy {
+  background-color: #6998AB;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+
+
+p {
+  color: #8f8f8f;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 2% 5% 0;
+}
+
+
+.iphone {
+  width: 12%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 60%;
+}
+
+/* Features Section */
+.features {
+  padding: 2% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  padding: 5%
+}
+
+.ney {
+  color: #DB6B97;
+  margin-bottom: 1rem;
+}
+
+.ney:hover {
+  color: #6998AB;
+}
+
+/* Testimonial */
+.testimonials {
+
+  background-color: #6998AB;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.dog-image {
+  width: 15%;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+/* Press section */
+.press {
+  background-color: #6998AB;
+  padding-bottom: 30px;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* CARDS and pricing section */
+.pricing {
+  padding: 100px;
+
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+@media(max-width:769px) {
+  .row{
+    text-align: center;
+  }
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.cta{
+
+  font-family: 'Ubuntu', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+  background-color: #6998AB;
+  color: #fff;
+padding: 1%;
+}
+.footer{
+
+  padding-bottom: 0;
+}
+.foot{
+  padding-top: 0;
+      margin: 20px 20px 50px;
+}
